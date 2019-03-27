@@ -107,7 +107,7 @@ module axi_hdmi_tx #(
   localparam  EMBEDDED_SYNC = (INTERFACE == "16_BIT_EMBEDDED_SYNC") ? 1 : 0;
   localparam  XILINX_7SERIES = 0;
   localparam  XILINX_ULTRASCALE = 1;
-  localparam  ALTERA_5SERIES = 16;
+  localparam  INTEL_5SERIES = 16;
 
   // reset and clocks
 
